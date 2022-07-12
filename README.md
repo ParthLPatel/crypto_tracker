@@ -24,19 +24,19 @@ API endpoint testing: Postman
 
 #### Get all coins data
 
-```http
+```code
   GET https://api.coingecko.com/api/v3/coins
 ```
 #### Get all coins data for specific market
 
-```http
-  GET https://api.coingecko.com/api/v3/coins/markets?vs_currency=<user-market>
+```code
+  GET https://api.coingecko.com/api/v3/coins/markets?vs_currency=<user__market>
 
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| <user-market>      | `string` | Example: "cad" for Canada |
+| <user__market>      | `string` | Example: "cad" for Canada |
 
 ```
   Example Endpoint:
